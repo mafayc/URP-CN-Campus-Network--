@@ -1,0 +1,190 @@
+<!----------------------源作者：马法源；QQ：1961742007---------------------->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>马法源-博客</title>
+<link rel="shortcut icon" href="boke.ico"/>
+<script>
+function bk(){
+	document.getElementById("s11").innerHTML="备注：";                 document.getElementById("s12").innerHTML="博客内容";
+	document.getElementById("s21").innerHTML="2021.07.07";        document.getElementById("s22").innerHTML="<a href='https://github.com/mafayc/in-python-distinguish-hand'>py手势识别拍照</a>";
+	document.getElementById("s31").innerHTML="2021.07.23";        document.getElementById("s32").innerHTML="<a href='https://github.com/mafayc/URP-CN-Campus-Network--'>仿校官网源码</a>";
+	document.getElementById("s41").innerHTML="测试：";                 document.getElementById("s42").innerHTML="<a href='https://github.com/fenwii/OpenHarmony'>鸿蒙开发资料</a>";
+	document.getElementById("s51").innerHTML="&nbsp;";                document.getElementById("s52").innerHTML="&nbsp;";
+	document.getElementById("s61").innerHTML="&nbsp;";                document.getElementById("s62").innerHTML="&nbsp;";
+}
+function xx(){
+	document.getElementById("s11").innerHTML="信息：";           document.getElementById("s12").innerHTML="（长按文字复制）";
+	document.getElementById("s21").innerHTML="电话：";           document.getElementById("s22").innerHTML="15946574960";
+	document.getElementById("s31").innerHTML="邮箱：";        document.getElementById("s32").innerHTML="1961742007@qq.com";
+	document.getElementById("s41").innerHTML="QQ：";            document.getElementById("s42").innerHTML="<a href='mqqwpa://im/chat?chat_type=wpa&uin=1961742007&version=1&src_type=web&web_src=oicqzone.com'>点此加我QQ</a>";
+	document.getElementById("s51").innerHTML="&nbsp;";         document.getElementById("s52").innerHTML="&nbsp;";
+	document.getElementById("s61").innerHTML="&nbsp;";         document.getElementById("s62").innerHTML="&nbsp;";
+    }
+</script>
+<style>
+#d1 {
+          position: absolute;
+          width:1024px;
+          height:1850px;
+          background:#52afdd;}
+#d2 {
+          border-radius: 30px;
+          width:768px;
+          height:1500px;
+          background:#ffffff;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          animation:dh 2s;
+          box-shadow: 20px 20px 20px #0088AA;}
+
+@keyframes dh
+{
+	0%   {left:0px; top:-5120px;}
+	100% {left:0px; top:0px;}
+}
+
+#p1 {margin-top:25px;
+          text-align:center;
+          font-size: 60px;}
+#hx {width:460px; height:7px; border-style: none;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 100px;
+          margin: auto;
+          /*background:#ff6600;*/
+background-image: linear-gradient(to right,#ffeeee, #ff6600,#ff6600,#ffeeee);}
+
+#tou {
+          clear: both;
+          display: block;
+          margin:auto;
+          width:230px;
+          border: 3px solid;
+    
+          border-image: linear-gradient(to right, #f60,#fff,#3cf) 1 1;
+          /*border-radius: 50px 20px 50px 20px;*/
+          box-shadow: 10px 20px 20px 10px  #aaaaaa;}
+
+#lb {width:768px;}
+
+.tdz {
+        width:200px;
+        color:#ff6600;
+	font-size: 40px;
+	padding:0 50px;
+        text-align: right; }
+
+.tdy {color:#52afdd;
+	font-size: 40px;
+	/*padding:0 50px;*/
+        text-align:center;}
+
+#anniu {
+          color:#eeeeee;
+          font-size: 40px;
+          width:200px;
+          height:100px;
+          border-style: none;
+          border-radius: 10px;
+          background:#89C5ED;
+          box-shadow: 10px 20px 20px #AADDFF;
+}
+#anniu:hover {
+              color:#ff6600;
+              box-shadow: 10px 20px 20px #ff6600;
+}
+#wei {
+color:#ccc;
+}
+</style>
+</head>
+<body> 
+<!----------------------以上别动，没问题---------------------->
+
+
+<center>
+<div id="d1">
+  <div id="d2">
+        <p id="p1">黑龙江科技大学</p>
+        <hr/ id="hx">
+            <img   id="tou"   src="TouXiang.jpg"alt="哦？这里本该有个图片呀，可能图片被怪兽吃了。"><!----------------------源作者：马法源；QQ：1961742007---------------------->
+        <br/><br/><br/><br/><br/><br/>
+        
+        <table id="lb">
+        <tr>
+        <td class="tdz">院系：</td>
+        <td class="tdy">电气与控制工程</td>
+        </tr>
+	
+        <tr>
+        <td class="tdz">专业：</td>
+        <td class="tdy">自动化</td>
+        </tr>
+	
+        <tr>
+        <td class="tdz">年级：</td>
+        <td class="tdy">18级（大四）</td>
+        </tr>
+	
+        <tr>
+        <td class="tdz">姓名：</td>
+        <td class="tdy">马法源</td>
+        </tr>
+	</table>
+        <br/><br/>
+<!----------------------源作者：马法源；QQ：1961742007---------------------->
+<center>
+<button id="anniu" onclick="bk()">我的博客</button>
+<button id="anniu" onclick="xx()">联系信息</button>
+</center>
+<br/><br/><br/>
+
+<table id="lb">
+        <tr>
+        <td class="tdz"><span id="s11">呼</span></td><td class="tdy"><span id="s12">小</span></td>
+        </tr>
+
+        <tr>
+        <td class="tdz"><span id="s21">作</span></td><td class="tdy"><span id="s22">时</span></td>
+        </tr>
+
+        <tr>
+        <td class="tdz"><span id="s31">白</span></td><td class="tdy"><span id="s32">不</span></td>
+        </tr>
+
+        <tr>
+        <td class="tdz"><span id="s41">玉</span></td><td class="tdy"><span id="s42">识</span></td>
+        </tr>
+
+        <tr>
+        <td class="tdz"><span id="s51">盘</span></td><td class="tdy"><span id="s52">月</span></td>
+        </tr>
+
+        <tr>
+        <td class="tdz"><span id="s61"> </span></td><td class="tdy"><span id="s62"> </span></td>
+        </tr>
+
+        </table>      
+        
+  </div>
+</center>
+<p id="wei"><span style="color: #52afdd;">--------------当您阅读到这段文字，说明此网页没有按我设想的展示出来，您的网页有效长度大于1800px或者小于1500px </span>
+     <br/>网页信息：网页布局版本号 3c.9d97
+     正更新<span style="color: #f00;">/---加载本网页会消耗将近10KB流量---/</span>本网页基于免费的github，所以时常无法访问。
+     <br/>内容信息：更新版本号 7.26-1.0
+     不定期更新中（约每半月更新）
+<br/>由于经济、时间有限，我只能利用闲余时间更新，因此网页目前只支持手机版，还有许多不完善的地方，有机会我会进行持续更新的
+</p>
+</div>
+<!--以下别动，没问题-->
+</body>
+</html>
+<!--版权声明：转载，私用，商用，二创等引用行为，
+需获得作者本人（马法源）同意及注明出处（https://github.com/mafayc）-->
